@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  --cor-primaria: #5eb3c3;
+  --cor-secundaria: #444644;
+  --cor-fundo: #e6e7e8;
+}
+
+.cabecalho {
+  background-color: var(--cor-primaria);
+  padding: 20px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho-menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 35px;
+}
+
+.cabecalho-menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main{
+  background-color: var(--cor-primaria);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+  padding: 60px;
+}
+
+.principal{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.principal figure{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.principal-conteudo{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+
+.principal-conteudo h1{
+  font-size: 300%;
+}
+
+.principal-conteudo p{
+  margin-top: 20px;
+  font-size: 80%;
+}
+
+section{
+  background-color:var(--cor-secundaria);
+  padding: 60px;
+}
+
+.cabecalho-secao{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+}
+
+.cabecalho-secao h2{
+  font-size: 35px;
+}
+
+.secao-cards{
+  background-color: var(--cor-fundo);
+}
