@@ -194,3 +194,85 @@ section{
   width: 40%;
 }
 
+.sec-4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 100%;
+  background-color: var(--cor-terciaria);
+  padding: 100px 50px;
+}
+
+.sec-4-col1{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.sec-4-col2{
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.sec-4-col2 .row-1, .row-2{
+  display: flex;
+  gap: 20px;
+}
+
+.footer .footer-row1{
+  background-color: var(--cor-secundaria);
+  padding: 30px 50px;
+  color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .footer-row1 .footer-col1, .footer-col2, .footer-col3{
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-title{
+  font-size: 22px;
+}
+
+.footer-col2 > div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-col2 .contact-address, .contact-phone, .contact-email{
+  display: flex;
+  gap: 20px;
+}
+
+.footer-social{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer .footer-row2{
+  padding: 20px 50px;
+  background-color: var(--cor-primaria);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
