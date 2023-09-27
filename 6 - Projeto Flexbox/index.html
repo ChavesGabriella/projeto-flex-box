@@ -6,59 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./css/style.css"/>
-    <title>Projeto flexbox</title>
+    <title>Projeto Simple</title>
   </head>
   <body>
-    <header>
-      <div class="cabecalho">
-        <div class="cabecalho-logo">
-          <figure>
-            <img src="./img/logo.png" alt="Logo Your"/>
-          </figure>
-        </div>
-        <nav class="cabecalho-menu">
-          <ul>
-            <li><a href="">Pages</a></li>
-            <li><a href="">Feature</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </nav>
+    <header class="container-header">
+      <div class="header-logo">
+        <figure>
+          <img src="./img/logo.png" alt="Logo da empresa"/>
+        </figure>
       </div>
+        
+      <nav class="header-menu">
+        <ul>
+          <li><a href="">Pages</a></li>
+          <li><a href="">Feature</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav> 
     </header>
-    <main>
-      <div class="principal">
+
+    <main class="main">
+      <div class="main-col1">
         <figure>
           <img src="./img/img-principal.png" alt="Logo principal"/>
         </figure>
       </div>
-      <div class="principal-conteudo">
-        <h1>AWESOME</h1>
-        <h1>WEBSITE</h1>
-        <h1>TEMPLATE</h1>
+      <div class="main-col2">
+        <div class="main-title">
+          <h1>AWESOME</h1>
+          <h1>WEBSITE</h1>
+          <h1>TEMPLATE</h1>
+        </div>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dolor officia ipsa! Commodi facere nobis labore natus maiores, dolor aut, 
-          a reprehenderit explicabo vero modi voluptates vel, quibusdam sunt asperiores.</p>
+          a reprehenderit explicabo vero modi voluptates vel, quibusdam sunt asperiores.
+        </p>
       </div>
     </main>
-    <section>
-      <div class="cabecalho-secao">
-        <h2>CREATE YOUR OWN GENUINE WEB MASTERPIECE</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ut, sapiente sint rem temporibus officiis! Officia, praesentium voluptatem nemo 
-          optio iusto corrupti beatae minima molestias? </p>
-      </div>
+
+    <section class="sec">
+      <h2 class="section-title">CREATE YOUR OWN GENUINE WEB MASTERPIECE</h2>
+      <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ut, sapiente sint rem temporibus officiis! Officia, praesentium voluptatem nemo 
+          optio iusto corrupti beatae minima molestias?
+      </p> 
     </section>
     
-    <section class="secao-cards">
-      <div class="container-cards">
-        <div class="card">
-          <div class="card-img">
-            <figure>
-              <img src="./img/sec-research.png" alt="Logo research"/>
-            </figure>
-          </div>
-        </div>
+    <section class="sec-1">
+      <div class="card">
+        <figure>
+          <img src="./img/sec-research.png" alt="icone research"/>
+        </figure>
+
+        <h4>Research</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit voluptas, consequuntur asperiores laudantium a iste quos ipsum minima ipsam! Earum numquam expedita recusandae in 
+          quo assumenda animi suscipit eum vitae.
+        </p> 
       </div>
+
+      <div class="card">
+        <figure>
+          <img src="./img/sec-customizable.png" alt="icone customizable"/>
+        </figure>
+        <h4>Fully Customizable</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut dolorem dolore delectus nam vero et nihil fugit dolor, minima animi eius itaque sed officia exercitationem 
+          excepturi temporibus ea! Quos?
+        </p>
+      </div>
+
+      
+
     </section>
   </body>
 </html>

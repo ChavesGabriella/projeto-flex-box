@@ -1,88 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   --cor-primaria: #5eb3c3;
   --cor-secundaria: #444644;
+  --cor-terciaria: #f4f9f9;
   --cor-fundo: #e6e7e8;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
 }
 
-.cabecalho {
+.container-header{
   background-color: var(--cor-primaria);
-  padding: 20px 150px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+
+  padding: 0px 50px;
+  height: 70px;
 }
 
-.cabecalho-menu ul {
+.header-menu ul{
   display: flex;
-  list-style-type: none;
-  gap: 35px;
+  list-style: none;
+  gap: 25px;
 }
 
-.cabecalho-menu ul li a {
+.header-menu ul li a{
   text-decoration: none;
   color: white;
 }
 
-main{
+.header-menu ul li a:hover{
+  color: var(--cor-secundaria);
+}
+
+.main{
   background-color: var(--cor-primaria);
+
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;
+
   width: 100%;
-  gap: 30px;
-  padding: 60px;
+  padding: 30px 50px;
 }
 
-.principal{
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+.main-col1{
+  width: 40%;
 }
 
-.principal figure{
+.main-col1 figure{
   display: flex;
   justify-content: flex-end;
-  width: 100%;
 }
 
-.principal-conteudo{
+.main-col2{
+  width: 40%;
+
   display: flex;
   flex-direction: column;
-  width: 50%;
   justify-content: center;
-  align-items: flex-start;
+  gap: 20px;
+
   color: white;
 }
 
-.principal-conteudo h1{
-  font-size: 300%;
+.main-col2 .main-title h1{
+  font-size: 42px;
 }
 
-.principal-conteudo p{
-  margin-top: 20px;
-  font-size: 80%;
+.main-col2 .main-title h1:first-child{
+  font-weight: normal;
 }
 
 section{
-  background-color:var(--cor-secundaria);
-  padding: 60px;
+  padding: 30px 50px;
 }
 
-.cabecalho-secao{
+.section-title{
+  font-size: 32px;
+}
+
+.section-description{
+  font-size: 14px;
+}
+
+.sec{
+  background-color: var(--cor-secundaria);
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  flex-wrap: wrap;
   gap: 10px;
+
+  color: white;
 }
 
-.cabecalho-secao h2{
-  font-size: 35px;
+.sec-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.secao-cards{
-  background-color: var(--cor-fundo);
+.card{
+  width: 350px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  padding: 10px;
+}
+
+.card figure{
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card p{
+  text-align: justify;
+}
+
+.sec-2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  background-color: var(--cor-terciaria);
+}
+
+.sec-2-title{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--cor-terciaria);
+}
+
+.sec-2-title p{
+  width: 800px;
+  text-align: center;
+}
+
+.sec-2-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
