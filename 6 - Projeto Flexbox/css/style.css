@@ -19,9 +19,9 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  height: 10vh;
 
-  padding: 0px 50px;
-  height: 70px;
+  padding: 10px 50px;
 }
 
 .header-menu ul{
@@ -43,11 +43,13 @@
   background-color: var(--cor-primaria);
 
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 80px;
 
   width: 100%;
   padding: 30px 50px;
+  /*height: 90vh;*/
 }
 
 .main-col1{
@@ -57,6 +59,7 @@
 .main-col1 figure{
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .main-col2{
@@ -71,7 +74,7 @@
 }
 
 .main-col2 .main-title h1{
-  font-size: 42px;
+  font-size: 2.6rem;
 }
 
 .main-col2 .main-title h1:first-child{
@@ -83,11 +86,11 @@ section{
 }
 
 .section-title{
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .section-description{
-  font-size: 14px;
+  font-size: 0.8rem;
 }
 
 .sec{
@@ -159,7 +162,7 @@ section{
 }
 
 .sec-2-title p{
-  width: 800px;
+  width: 60%;
   text-align: center;
 }
 

@@ -1,0 +1,106 @@
+@media (max-width: 576px){
+    *{
+        font-size: 14px;
+    }
+    .container-header {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        padding: 10px 20px;
+        height: 20vh;
+    }
+
+    .main{
+        /*heigth: 80vh;*/
+        flex-direction: column;
+        padding: 10px 20px;
+        gap: 20px;
+    }
+
+    .main-col1{
+        width: 100%;     
+    }
+
+    .main-col1 figure{
+        justify-content: center;
+    }
+
+    .main-col1 figure img{
+        width: 50%;
+    }
+
+    .main-col12 {
+        width: 100%;
+    }
+
+    .main-col2 .main-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec-2{
+        padding: 0px 0px;
+    }
+
+    .sec-2-img{
+        flex-direction: column;
+    }
+
+    .sec-4{
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .sec-4 .section-title p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec-4-col1, .sec-4-col2{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .footer .footer-row1 .footer-col1 .footer-description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer .footer-row1 .footer-col3 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-row1{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer .footer-row1 .footer-col1, .footer-col2, .footer-col3{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
